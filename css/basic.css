@@ -23,3 +23,26 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 3px;
+}
+
+.phone {
+  font-weight: 400;
+  font-size: 23.85px;
+  line-height: 28px;
+}
+
+.call-me {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+
