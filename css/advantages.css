@@ -16,5 +16,19 @@
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 23px;
+  width: 200px;
+  margin: 0 auto;
 }
 
+.advantages__about-us:before,
+.advantages__about-us:after {
+  content: '';
+  display: block;
+  width: 43px;
+  height: 2px;
+  background: #383A4C;
+}
