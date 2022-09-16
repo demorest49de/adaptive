@@ -1,0 +1,29 @@
+.hero__container{
+  height: 732px;
+  background-image: url("../img/hero/hero_bg.jpg");
+}
+
+.hero__wrapper{
+  padding-top: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero__top-bar{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.hero__title{
+  max-width: 990px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.hero__text{
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
