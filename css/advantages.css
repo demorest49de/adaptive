@@ -22,6 +22,7 @@
   column-gap: 23px;
   width: 200px;
   margin: 0 auto;
+  margin-bottom: 35px;
 }
 
 .advantages__about-us:before,
@@ -32,3 +33,13 @@
   height: 2px;
   background: #383A4C;
 }
+
+.advantages__text{
+  width: 724px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
