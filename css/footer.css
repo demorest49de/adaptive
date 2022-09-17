@@ -16,8 +16,19 @@
   align-items: center;
 }
 
-.footer__text-made-in {
+.footer__small-text {
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
+}
+
+.footer__block-logo {
+  display: flex;
+  align-items: center;
+  column-gap: 19px;
+}
+
+.footer__block-logo > .footer__small-text{
+  width: 127px;
+  text-align: left;
 }
