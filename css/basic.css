@@ -45,7 +45,7 @@
   line-height: 28px;
 }
 
-.call-me {
+.call-me-back {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -53,4 +53,17 @@
   text-underline-position: under;
 }
 
+.subtitle {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+}
 
+.blue-button {
+  border: none;
+  background: #15A9CB;
+  box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  height: 48px;
+  color: inherit;
+}

@@ -1,0 +1,23 @@
+.footer__container {
+  height: 158px;
+  background: #2F324B;
+}
+
+.footer__wrapper {
+  padding-top: 45px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer__block-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__text-made-in {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+}

@@ -17,11 +17,11 @@
   <section class="hero">
     <div class="container hero__container">
       <div class="hero__wrapper">
-        <div class="hero__top-bar">
-          <img class="hero__logo" src="img/logo/Logo.png" alt="логотип">
+        <div class="hero__block-bar">
+          <a href="#"><img class="hero__logo" src="img/logo/Logo.png" alt="логотип"></a>
           <div class="hero__contacts contacts">
             <p class="hero__phone phone">+7 (962) 556 - 1234</p>
-            <p class="hero__call-me call-me">Перезвоните мне</p>
+            <p class="hero__call-me call-me-back"><a href="#">Перезвоните мне</a></p>
           </div>
         </div>
         <h1 class="hero__title">
@@ -32,7 +32,7 @@
           несколько
           абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.
         </p>
-        <button class="hero__button" type="button">Подробнее</button>
+        <button class="hero__button blue-button" type="button">Подробнее</button>
       </div>
     </div>
   </section>
@@ -40,7 +40,7 @@
   <section class="advantages">
     <div class="container advantages__container">
 
-      <h2 class="advantages__subtitle">Уникальный заголовок для преимущества компании</h2>
+      <h2 class="advantages__subtitle subtitle">Уникальный заголовок для преимущества компании</h2>
       <p class="advantages__about-us">О нас</p>
       <p class="advantages__text">
         Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
@@ -58,7 +58,7 @@
         </li>
         <li class="advantages__item">
           <div class="advantages_block-text">
-              2
+            2
           </div>
           <p class="advantages__under-text">
             Второе целевое преимущество
@@ -66,7 +66,7 @@
         </li>
         <li class="advantages__item">
           <div class="advantages_block-text">
-              3
+            3
           </div>
           <p class="advantages__under-text">
             Третье целевое преимущество
@@ -74,7 +74,7 @@
         </li>
         <li class="advantages__item">
           <div class="advantages_block-text">
-              4
+            4
           </div>
           <p class="advantages__under-text">
             Четвертое целевое преимущество
@@ -86,33 +86,54 @@
 
   <section class="callback">
     <div class="container callback__container">
-      <h2 class="callback__text__subtitle">Уникальный заголовок для преимущества компании</h2>
-      <p class="callback__text"></p>
-      <label for="callback-name" class="callback__label"></label>
-      <input type="text" id="callback-name" class="callback__input">
-      <label for="callback-phone" class="callback__label"></label>
-      <input type="tel" id="callback-phone" class="callback__input">
-      <label for="callback-email" class="callback__label"></label>
-      <input type="email" id="callback-email" class="callback__input">
+      <div class="callback__wrapper">
+        <h2 class="callback__text__subtitle subtitle">Остались вопросы?</h2>
+        <p class="callback__text">Оставьте номер телефона, и мы перезвоним вам</p>
+
+        <form class="callback__form" action="https://jsonplaceholder.typicode.com/posts" name="callback__form"
+              method="post">
+          <div class="callback-form-block">
+            <label for="callback-name" class="callback__label">
+              <input type="text" id="callback-name" class="callback__input" name="caller-name" placeholder="Ваше имя"
+                     required>
+            </label>
+            <label for="callback-phone" class="callback__label">
+              <input type="tel" id="callback-phone" class="callback__input" name="caller-phone" placeholder="Телефон"
+                     required>
+            </label>
+            <label for="callback-email" class="callback__label">
+              <input type="email" id="callback-email" class="callback__input" name="caller-email" placeholder="E-mail"
+                     required>
+            </label>
+          </div>
+          <button class="callback__submit-button blue-button" type="submit">позвоните мне</button>
+        </form>
+
+        <p class="callback__text-agreement">Я даю своё <span class="callback__link-style"><a
+          href="#">согласие</a></span> на обработку моих персональных данных.</p>
+      </div>
     </div>
   </section>
 
   <section class="footer">
-    <div class="container">
-      <div class="footer__block">
-        <div class="footer__block-logo">
-          <img src="" alt="" class="footer__img">
-          <div class="footer__block-text">
-            <p class="footer__text-small"></p>
-            <p class="footer__text-small"></p>
+    <div class="container footer__container">
+      <div class="footer__wrapper">
+        <div class="footer__block-bar">
+          <div class="footer__block-logo">
+            <a href="#"><img class="hero__logo" src="img/logo/Logo.png" alt="логотип"></a>
+            <div class="footer__block-text">
+              <p class="footer__text-small"></p>
+              <p class="footer__text-small"></p>
+            </div>
+          </div>
+          <p class="footer__text-made-in">Сделано в Ивановым Иваном</p>
+          <div class="footer__contacts contacts">
+            <p class="footer__phone phone">+7 (962) 556 - 1234</p>
+            <p class="footer__call-me call-me-back"><a href="#">Перезвоните мне</a></p>
           </div>
         </div>
       </div>
-      <p class="footer__text-made-in"></p>
-      <div class="footer__contacts contacts">
-        <p class="footer__phone phone"></p>
-        <p class="footer__call-me call-me"></p>
-      </div>
+    </div>
     </div>
   </section>
 </body>
