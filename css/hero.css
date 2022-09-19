@@ -35,6 +35,7 @@
 
 .hero__button{
   padding: 12px 48px;
+  margin-bottom: 70px;
 }
 
 @media (max-width: 1024px) {
@@ -57,5 +58,13 @@
     font-size: 18px;
     line-height: 25px;
     max-width: 754px;
+  }
+}
+
+@media (max-width: 320px) {
+
+
+  .hero__button{
+    margin-bottom: 65px;
   }
 }
