@@ -10,9 +10,6 @@
 }
 
 .advantages__about-us {
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 26px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,10 +90,6 @@
 }
 
 @media (max-width: 1024px) {
-  .advantages__about-us {
-    font-size: 20px;
-    line-height: 23px;
-  }
 
   .advantages__text {
     font-size: 16px;

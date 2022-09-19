@@ -45,6 +45,14 @@
   line-height: 28px;
 }
 
+.phone-small{
+  display: none;
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/hero/hero__phone-small.png");
+  background-repeat: no-repeat;
+}
+
 .call-me-back {
   font-weight: 400;
   font-size: 16px;
@@ -66,6 +74,15 @@
   border-radius: 50px;
   height: 48px;
   color: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.undertitle-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 @media (max-width: 1024px) {
@@ -83,5 +100,29 @@
   .subtitle {
     font-size: 32px;
     line-height: 38px;
+  }
+
+  .undertitle-text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 320px) {
+  .blue-button {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .phone-small{
+    display: block;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .call-me-back {
+    display: none;
   }
 }

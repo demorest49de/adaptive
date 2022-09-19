@@ -8,14 +8,11 @@
   text-align: center;
 }
 
-.callback__text__subtitle {
+.callback__subtitle {
   margin-bottom: 17px;
 }
 
 .callback__text {
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 26px;
   margin-bottom: 50px;
 }
 
@@ -33,7 +30,6 @@
   border-radius: 50px;
   background-color: white;
   border: 2px solid #FFFFFF;
-  /*color: rgba(255, 255, 255, 0.5);*/
   padding-left: 25px;
 }
 
@@ -59,4 +55,17 @@
   color: #4A76A8;
   text-decoration: underline;
   text-underline-position: under;
+}
+
+@media (max-width: 1024px) {
+
+  .callback-form-block {
+    max-width: 379px;
+    row-gap: 20px;
+  }
+
+  .callback__text-agreement {
+    font-size: 17px;
+    line-height: 20px;
+  }
 }
