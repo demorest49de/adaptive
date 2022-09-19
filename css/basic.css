@@ -41,7 +41,7 @@
 
 .phone {
   font-weight: 400;
-  font-size: 23.85px;
+  font-size: 24px;
   line-height: 28px;
 }
 
@@ -66,4 +66,22 @@
   border-radius: 50px;
   height: 48px;
   color: inherit;
+}
+
+@media (max-width: 1024px) {
+
+  .phone {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .call-me-back {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .subtitle {
+    font-size: 32px;
+    line-height: 38px;
+  }
 }

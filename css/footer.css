@@ -1,5 +1,5 @@
 .footer__container {
-  height: 158px;
+  min-height: 158px;
   background: #2F324B;
 }
 
@@ -29,6 +29,6 @@
 }
 
 .footer__block-logo > .footer__small-text{
-  width: 127px;
+  max-width: 127px;
   text-align: left;
 }

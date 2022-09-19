@@ -1,5 +1,5 @@
 .callback__container {
-  height: 621px;
+  min-height: 621px;
   background-image: url("../img/callback/bg.jpg");
 }
 
@@ -22,10 +22,9 @@
 .callback-form-block {
   display: flex;
   flex-direction: column;
-  width: 423px;
-  margin: 0 auto;
+  max-width: 423px;
+  margin: 0 auto 50px auto;
   row-gap: 21px;
-  margin-bottom: 50px;
 }
 
 .callback__input {
