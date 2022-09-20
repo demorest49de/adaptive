@@ -71,13 +71,13 @@
   }
 }
 
-@media (max-width: 468px){
+@media (max-width: 468px) {
   .logo {
     width: 30px;
     height: 30px;
   }
 
-  .phone-small{
+  .phone-small {
     display: block;
   }
 
@@ -87,5 +87,11 @@
 
   .call-me-back {
     display: none;
+  }
+
+  .footer__small-text {
+    font-size: 8px;
+    line-height: 11px;
+    max-width: 90px;
   }
 }

@@ -101,6 +101,16 @@
     height: 104px;
   }
 
+  .advantages_block-text:after {
+    content: counter(count);
+    position: absolute;
+    color: var(--color-FFFFFF);
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 73px;
+    counter-increment: count;
+  }
+
   .advantages__under-text {
     font-size: 18px;
     line-height: 25px;

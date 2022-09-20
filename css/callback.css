@@ -78,5 +78,17 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
+}
 
+@media (max-width: 320px) {
+  .callback__text-agreement {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .callback__input {
+    font-size: 14px;
+    line-height: 16px;
+    height: 28px;
+  }
 }
