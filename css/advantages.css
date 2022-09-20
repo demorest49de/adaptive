@@ -115,10 +115,6 @@
     font-size: 18px;
     line-height: 25px;
   }
-
-  .advantages_list {
-    max-width: calc(946px - 76px);
-  }
 }
 
 @media (max-width: 730px) {

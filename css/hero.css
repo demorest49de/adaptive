@@ -60,11 +60,9 @@
 
   .hero__wrapper {
     padding-top: 15px;
-    max-width: calc(305px - 15px);
   }
 
   .hero__block-bar {
-    padding: 0 15px;
     margin-bottom: 65px;
   }
 
