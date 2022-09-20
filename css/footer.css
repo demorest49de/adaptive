@@ -72,6 +72,11 @@
 }
 
 @media (max-width: 468px){
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+
   .phone-small{
     display: block;
   }
