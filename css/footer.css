@@ -42,10 +42,6 @@
     padding-top: 49px;
     padding-bottom: 49px;
   }
-
-  .footer__block-bar {
-    padding: 0 30px;
-  }
 }
 
 @media (max-width: 666px) {
@@ -62,12 +58,6 @@
 @media (max-width: 600px) {
   .footer__made-by {
     display: none;
-  }
-}
-
-@media (max-width: 320px) {
-  .footer__block-bar {
-    padding: 0 15px;
   }
 }
 

@@ -46,7 +46,7 @@
   margin-bottom: 4px;
 }
 
-.phone-small{
+.phone-small {
   display: none;
   width: 24px;
   height: 24px;
@@ -91,6 +91,12 @@
   height: 60px;
 }
 
+@media (max-width: 1200px) {
+  .wrapper {
+    padding: 0 30px;
+  }
+}
+
 
 @media (max-width: 1024px) {
 
@@ -113,6 +119,13 @@
     font-size: 20px;
     line-height: 23px;
   }
+}
+
+@media (max-width: 468px) {
+  .wrapper {
+    padding: 0 15px;
+  }
+
 }
 
 @media (max-width: 320px) {

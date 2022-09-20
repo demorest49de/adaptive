@@ -43,10 +43,6 @@
     padding-bottom: 70px;
   }
 
-  .hero__block-bar {
-    padding: 0 30px;
-  }
-
   .hero__title {
     font-size: 40px;
     line-height: 47px;
@@ -64,6 +60,7 @@
 
   .hero__wrapper {
     padding-top: 15px;
+    max-width: calc(305px - 15px);
   }
 
   .hero__block-bar {
