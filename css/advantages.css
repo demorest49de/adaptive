@@ -136,22 +136,14 @@
   }
 }
 
-@media (max-width: 456px) {
+@media (max-width: 480px) {
   .advantages__container {
     padding-top: 30px;
     padding-bottom: 60px;
-    color: var(--color-383A4C);
-    text-align: center;
   }
 
   .advantages {
     --cart-count: 1;
     --flex-basis-current-value: calc(100% / var(--cart-count) - (var(--gap) * (var(--cart-count) - 1)) / var(--cart-count));
   }
-}
-
-@media (max-width: 320px) {
-  /*.advantages__list{*/
-  /*  display: none;*/
-  /*}*/
 }
