@@ -1,10 +1,11 @@
+.hero {
+  background-image: url("../img/hero/hero_bg_1600.jpg");
+  background-size: cover;
+}
+
 .hero__container {
   padding-top: 40px;
   padding-bottom: 65px;
-  background-image: url("../img/hero/hero_bg.jpg");
-}
-
-.hero__wrapper {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
@@ -38,6 +39,10 @@
 }
 
 @media (max-width: 1024px) {
+  .hero {
+    background-image: url("../img/hero/hero_bg_1024.jpg");
+  }
+
   .hero__container {
     padding-top: 26px;
     padding-bottom: 70px;
@@ -57,8 +62,11 @@
 }
 
 @media (max-width: 320px) {
+  .hero {
+    background-image: url("../img/hero/hero_bg_320.jpg");
+  }
 
-  .hero__wrapper {
+  .hero__container{
     padding-top: 15px;
   }
 
@@ -81,5 +89,9 @@
   .hero__container {
     padding-top: 18px;
     padding-bottom: 65px;
+  }
+
+  .advantages__slider {
+
   }
 }

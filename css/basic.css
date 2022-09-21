@@ -92,7 +92,7 @@
 }
 
 @media (max-width: 1200px) {
-  .wrapper {
+  .container {
     padding: 0 30px;
   }
 }
@@ -122,7 +122,7 @@
 }
 
 @media (max-width: 468px) {
-  .wrapper {
+  .container {
     padding: 0 15px;
   }
 

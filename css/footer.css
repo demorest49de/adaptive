@@ -1,10 +1,10 @@
-.footer__container {
-  padding-top: 45px;
-  padding-bottom: 45px;
+.footer {
   background: #2F324B;
 }
 
-.footer__wrapper {
+.footer__container {
+  padding-top: 45px;
+  padding-bottom: 45px;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;

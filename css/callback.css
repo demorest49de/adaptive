@@ -1,10 +1,11 @@
+.callback {
+  background-image: url("../img/callback/callback_bg_1600.jpg");
+  background-size: cover;
+}
+
 .callback__container {
   padding-top: 70px;
   padding-bottom: 70px;
-  background-image: url("../img/callback/bg.jpg");
-}
-
-.callback__wrapper {
   text-align: center;
 }
 
@@ -58,6 +59,10 @@
 }
 
 @media (max-width: 1024px) {
+  .callback {
+    background-image: url("../img/callback/callback_bg_1024.jpg");
+  }
+
   .callback__container {
     padding-bottom: 56px;
   }
@@ -81,6 +86,9 @@
 }
 
 @media (max-width: 320px) {
+  .callback {
+    background-image: url("../img/callback/callback_bg_320.jpg");
+  }
   .callback__text-agreement {
     font-size: 11px;
     line-height: 13px;
