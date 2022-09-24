@@ -51,7 +51,7 @@
 
 @media (max-width: 1024px) {
   .hero {
-    background-image: url("../img/hero/hero_bg_1024.jpg");
+    background-position: center;
   }
 
   .hero__container {
@@ -74,7 +74,7 @@
 
 @media (max-width: 480px) {
   .hero {
-    background-image: url("../img/hero/hero_bg_320.jpg");
+    background-position: left;
   }
 
   .hero__container {
