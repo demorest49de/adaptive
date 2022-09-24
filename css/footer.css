@@ -67,18 +67,6 @@
     height: 30px;
   }
 
-  .phone-small {
-    display: block;
-  }
-
-  .phone {
-    display: none;
-  }
-
-  .call-me-back {
-    display: none;
-  }
-
   .footer__small-text {
     font-size: 8px;
     line-height: 11px;

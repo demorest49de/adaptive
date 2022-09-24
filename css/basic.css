@@ -46,15 +46,10 @@
   margin-bottom: 4px;
 }
 
-.phone-small {
-  display: none;
-  width: 25px;
-  height: 25px;
-  background-image: url("../img/hero/hero__phone-small.png");
-  background-repeat: no-repeat;
-}
-
 .call-me-back {
+  border-style: none;
+  background-color: transparent;
+  color: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -125,6 +120,7 @@
   .container {
     padding: 0 15px;
   }
+
   .blue-button {
     font-size: 16px;
     line-height: 19px;
@@ -138,5 +134,20 @@
   .undertitle-text {
     font-size: 16px;
     line-height: 19px;
+  }
+
+  .phone{
+    display: none;
+  }
+
+  .call-me-back {
+    font-size: 0;
+    line-height: 0;
+    margin-bottom: 0;
+
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/hero/hero__phone-small.png");
+    background-repeat: no-repeat;
   }
 }
