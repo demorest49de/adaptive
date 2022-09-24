@@ -1,6 +1,9 @@
-.advantages__container {
+.advantages {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+
+.advantages__container {
   color: var(--color-383A4C);
   text-align: center;
 }
@@ -53,7 +56,7 @@
   counter-reset: count 0;
 }
 
-.advantages__slider{
+.advantages__slider {
   display: none;
 }
 
