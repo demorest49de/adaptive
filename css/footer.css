@@ -1,6 +1,6 @@
 .footer {
   background: #2F324B;
-  padding-top: 45px;
+  padding-top: 42px;
   padding-bottom: 45px;
 }
 
@@ -14,6 +14,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer__logo {
+  margin-top: 3px;
 }
 
 .footer__small-text {
@@ -35,6 +39,7 @@
 
 .footer__made-by {
   max-width: 180px;
+  margin-right: 7px;
 }
 
 @media (max-width: 1024px) {

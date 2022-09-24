@@ -22,6 +22,7 @@
 
 .callback__subtitle {
   margin-bottom: 17px;
+  margin-right: 26px;
 }
 
 .callback__text {
@@ -42,7 +43,8 @@
   border-radius: 50px;
   background-color: white;
   border: 2px solid #FFFFFF;
-  padding-left: 25px;
+  padding-left: 24px;
+  padding-top: 2px;
 }
 
 .callback__input:focus {
@@ -50,11 +52,11 @@
 }
 
 .callback__submit-button {
-  padding: 11px 38px;
+  padding: 14px 38px;
 }
 
 .callback__form {
-  margin-bottom: 61px;
+  margin-bottom: 53px;
 }
 
 .callback__text-agreement {
