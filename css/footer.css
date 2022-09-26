@@ -38,18 +38,13 @@
 }
 
 @media (max-width: 1024px) {
-  .footer__container {
+  .footer {
     padding-top: 49px;
     padding-bottom: 49px;
   }
 }
 
 @media (max-width: 666px) {
-  .footer__container {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-
   .footer__made-by {
     display: none;
   }
@@ -71,5 +66,10 @@
     font-size: 8px;
     line-height: 11px;
     max-width: 90px;
+  }
+
+  .footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
