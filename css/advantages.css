@@ -10,7 +10,7 @@
 
 .advantages__subtitle {
   margin-bottom: 27px;
-
+  
 }
 
 .advantages__about-us {
@@ -33,7 +33,7 @@
 
 .advantages__text {
   max-width: 724px;
-  margin: 0 auto 57px auto;
+  margin: 0 auto 50px auto;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -67,10 +67,9 @@
   border-radius: 100px;
   background-color: var(--color-23C7EC);
   margin-bottom: 16px;
-  /*display: flex;*/
-  /*align-items: center;*/
-  /*justify-content: center;*/
-  padding: 37px 44.82px 33px 11.18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .advantages__item {
