@@ -28,13 +28,24 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
+  padding-bottom: 5px;
 }
 
-.footer__made-by{
+.footer__made-by {
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
   opacity: .5;
+  padding-bottom: 3.2px;
+  padding-right: 5px;
+}
+
+.footer__phone {
+  padding-top: -3px;
+}
+
+.footer__call-me-back {
+  padding-top: 1px;
 }
 
 @media (max-width: 1024px) {
@@ -46,26 +57,26 @@
 
 @media (max-width: 666px) {
 
-  .footer__made-by{
+  .footer__made-by {
     display: none;
   }
 }
 
 @media (max-width: 665px) {
 
-  .footer__block-bar{
+  .footer__block-bar {
     position: relative;
   }
 
-  .footer__container{
+  .footer__container {
     padding: 0;
   }
 
-  .footer__block-bar{
+  .footer__block-bar {
     padding: 0 15px;
   }
 
-  .footer__made-by{
+  .footer__made-by {
     display: block;
     position: absolute;
     text-align: center;
@@ -98,7 +109,7 @@
     padding-bottom: 25px;
   }
 
-  .footer__made-by{
+  .footer__made-by {
     top: 60px;
   }
 }

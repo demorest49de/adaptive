@@ -33,7 +33,7 @@
   display: flex;
   flex-direction: column;
   max-width: 423px;
-  margin: 0 auto 50px auto;
+  margin: 52px auto 50px auto;
   row-gap: 21px;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .callback__submit-button {
-  padding: 14px 38px;
+  padding: 11px 38px;
 }
 
 .callback__form {
@@ -63,6 +63,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
+  margin-top: -2px;
 }
 
 .callback__link-style {

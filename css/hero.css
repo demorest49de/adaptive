@@ -52,6 +52,14 @@
   margin-top: -1px;
 }
 
+.hero__call-me-back{
+  padding-top: 2px;
+}
+
+.hero__phone{
+ padding-top: 12px;
+}
+
 @media (max-width: 1024px) {
   .hero {
     background-position: center;

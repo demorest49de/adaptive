@@ -55,6 +55,7 @@
   flex-wrap: wrap;
   row-gap: 40px;
   counter-reset: count 0;
+  margin-top: 57px;
 }
 
 .advantages__slider {
@@ -94,6 +95,7 @@
   font-size: 57px;
   line-height: 100%;
   counter-increment: count;
+  padding-top: 8px;
 }
 
 @media (max-width: 1024px) {
