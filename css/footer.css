@@ -90,6 +90,7 @@
     order: 1;
     background-color: var(--color-2a2c3f);
     opacity: 1;
+    color: gray;
     padding: 15px 0;
   }
 }
